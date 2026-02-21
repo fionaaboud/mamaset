@@ -1,0 +1,24 @@
+# secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*token*
+*secret*
+
+# OS/editor
+.DS_Store
+*.swp
+
+# node/python (in case you add later)
+node_modules/
+dist/
+build/
+.next/
+.venv/
+__pycache__/
+*.pyc
+
+# never commit local openclaw creds
+.openclaw/
